@@ -12,7 +12,7 @@ namespace mad.yt.win
     public class UserConfiguration
     {
         #region UserConfiguration Fields
-        private DirectoryInfo _savefolder = new DirectoryInfo(@"C:\Users\mdeweese\Google Drive\music-youtube");
+        private DirectoryInfo _savefolder = new DirectoryInfo(@"%userprofile%\Music\yt");
         private string _playlistFileNameFormat = @"%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s";
         private string _singleFileNameFormat = "%(title)s.%(ext)s";
 
